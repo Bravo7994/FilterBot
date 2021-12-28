@@ -92,7 +92,7 @@ This module only works for my admins
 • /unban  - <code>to unban a user.</code>
 • /channel - <code>to get list of total connected channels</code>
 • /broadcast - <code>to broadcast a message to all users</code>"""
-      STATUS_TXT = """◉ Total Files: <code>{}</code>
+    STATUS_TXT = """◉ Total Files: <code>{}</code>
 ◉ Total Users: <code>{}</code>
 ◉ Total Chats: <code>{}</code>
 ◉ Used Storage: <code>{}</code> 𝙼𝚒𝙱
