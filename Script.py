@@ -1,5 +1,5 @@
 class script(object):
-    START_TXT = <b>Hello {} 👋</b>,\n
+    START_TXT = <b>Hello {} 👋,</b>\n
 <b>I Can Provide Movies & Series, Just Add Me To Your Group and Enjoy. Also You Can Search Movies via Inline In Here!...</b>
     HELP_TXT = """Hey {}
 Here Is The Help For My Commands."""
