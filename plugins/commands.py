@@ -70,7 +70,7 @@ async def start(client, message):
             btn.append([InlineKeyboardButton(" 🔄 TRY AGAIN", callback_data=f"checksub#{message.command[1]}")])
         await client.send_message(
             chat_id=message.from_user.id,
-            text="**Please Join In Our <a href='https://t.me/Movies_Emperio'>Official Channel</a> To Use This Bot. After Join The Channel Click The <a href='https://t.me/MoviesEmporioFilter_Bot'>🔄 TRY AGAIN</a> Button**",
+            text="**Please Join In Our @Movies_Emperio Official Channel To Use This Bot. After Join The Channel Click The 🔄 TRY AGAIN Button**",
             reply_markup=InlineKeyboardMarkup(btn),
             parse_mode="markdown"
             )
