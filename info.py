@@ -33,8 +33,11 @@ AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 
 # MongoDB information
 DATABASE_URI = environ.get('DATABASE_URI', "")
-DATABASE_NAME = environ.get('DATABASE_NAME', "Rajappan")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
+DATABASE_NAME = environ.get('DATABASE_NAME', "angel-luciferbot")
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'lucifer_files')
+
+#Port
+PORT = environ.get("PORT", "8080")
 
 # Others
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', 0))
